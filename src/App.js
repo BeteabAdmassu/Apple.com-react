@@ -1,11 +1,15 @@
 import React from 'react'
 import Header from './components/header'
+import AlertSection from './components/alertSection'
+import './components/css/styles.css'
 
  function App() {
   return (
-    <div> 
+    <body> 
        <Header /> 
-       </div>
+       <AlertSection />
+
+      </body>
    
   )
 }
